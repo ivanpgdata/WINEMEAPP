@@ -6,7 +6,7 @@ import requests
 data = pd.read_csv("df_vinos_modelos.csv")
 
 
-# Browser Tab Info
+# Tab Info
 st.set_page_config(
 	page_title = "WineMeApp!",
     page_icon=":wine_glass:",
