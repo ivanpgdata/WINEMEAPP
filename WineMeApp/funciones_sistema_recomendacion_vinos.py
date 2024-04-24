@@ -2,8 +2,11 @@
 import pandas as pd
 import numpy as np
 import seaborn as sns
-import matplotlib.pyplot as plt
+import tensorflow as tf
+from tqdm import tqdm
 import re
+import math
+import matplotlib.pyplot as plt
 from unidecode import unidecode
 from scipy.sparse import csr_matrix
 from sklearn.neighbors import NearestNeighbors
@@ -12,12 +15,11 @@ from surprise import BaselineOnly, Dataset, Reader
 import warnings
 warnings.filterwarnings('ignore')
 import plotly.graph_objects as go
-from tqdm import tqdm
 import tensorflow_hub as hub
+
 import numpy as np
 from sklearn.manifold import TSNE
-import tensorflow as tf
-import math
+
 from scipy.stats import rankdata
 data = pd.read_csv("df_vinos_modelos.csv")
 
