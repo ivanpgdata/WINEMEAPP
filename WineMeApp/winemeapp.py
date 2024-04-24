@@ -3,8 +3,7 @@ from streamlit_option_menu import option_menu
 from funciones_sistema_recomendacion_vinos import *
 import requests
 
-dff = "df_vinos_modelos.csv"
-data = pd.read_csv("./df_vinos_modelos.csv")
+data = pd.read_csv("WineMeApp/df_vinos_modelos.csv")
 
 
 # Tab Info
