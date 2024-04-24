@@ -4,6 +4,7 @@ from funciones_sistema_recomendacion_vinos import *
 import requests
 
 data = "WineMeApp/df_vinos_modelos.csv"
+data = pd.read_csv(data)
 
 
 # Tab Info
