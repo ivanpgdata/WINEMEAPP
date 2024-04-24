@@ -4,7 +4,7 @@ from funciones_sistema_recomendacion_vinos import *
 import requests
 
 dff = "df_vinos_modelos.csv"
-data = pd.read_csv(dff)
+data = pd.read_csv("./df_vinos_modelos.csv")
 
 
 # Tab Info
