@@ -15,4 +15,4 @@ plotly~=5.19.0
 streamlit_option_menu==0.3.2
 requests~=2.31.0
 surprise
-tensorflow_hub
+tensorflow
