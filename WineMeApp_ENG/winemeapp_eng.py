@@ -1,6 +1,6 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-from funciones_sistema_recomendacion_vinos import *
+from wine_recommender_functions import *
 import requests
 
 # data = "WineMeApp/df_vinos_modelos.csv"
