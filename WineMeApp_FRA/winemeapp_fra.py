@@ -123,8 +123,9 @@ if selected =="WineMeApp!":
 
     # ---- TOPSIS ----
     st.markdown("##  :wine_glass::wine_glass: Modèle 2: TOPSIS")
-    st.write("La versión actual de WineMeApp! tiene definidos por defecto un filtrado de los vinos con"
-             " precios comprendidos entre 5 y 150 euros  y de los pesos otorgados a las variables precio (80%) y rating (20%)  ")
+    st.write("La version actuelle de WineMeApp! a par défaut un filtrage des vins avec"
+             " des prix compris entre 5 et 150 euros et des poids attribués aux variables prix (80%) et note (20%)")
+
     st.markdown("##### Étape 3: Vérifiez votre recommandation avec le modèle TOPSIS*")
 
     vinos = filtrar_por_precio(recomendaciones, precio_min, precio_max)
