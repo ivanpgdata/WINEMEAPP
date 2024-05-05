@@ -2,6 +2,8 @@
 ![This is an alt text.](https://github.com/ivanpgdata/WineMeApp/blob/main/WineMeApp/images/banner_img.jpg?raw=true "This is a sample image.")
 
 🍷 https://winemeapp-fra.streamlit.app/ 🍷
+
+
 🍇Données🍇
 
 Nous avons extrait tous les 4800 vins espagnols disponibles sur le site web bodeboca.com en utilisant des packages comme Beautiful Soup.
