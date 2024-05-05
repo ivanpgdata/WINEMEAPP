@@ -4,23 +4,27 @@
 🍷 https://winemeapp-fra.streamlit.app/ 🍷
 
 
-🍇Données🍇
+## 🍇Données🍇
 
 Nous avons extrait tous les 4800 vins espagnols disponibles sur le site web bodeboca.com en utilisant des packages comme Beautiful Soup.
-🍇Prétraitement🍇
+
+## 🍇Prétraitement🍇
 
 Nous avons nettoyé, examiné les valeurs manquantes dans l'ensemble de données. Ensuite, pour les variables/colonnes de type chaîne de caractères, nous les avons converties en minuscules, supprimé les mots vides officiels espagnols et d'autres mots vides personnalisés que nous avons créés pour chaque colonne. Nous les avons également normalisées, tokenisées et lemmatisées pour obtenir des chaînes de caractères plus propres (traitement NLP).
-🍇EDA🍇
+
+## 🍇EDA🍇
 
 Nous avons examiné les données à travers une Analyse Exploratoire des Données.
-🍷Modèle de Recommandation🍷
+
+# 🍷Modèle de Recommandation🍷
 
 Une fois que les notes de dégustation et le texte d'association sont normalisés, nous les fusionnons dans une colonne : "description", qui sera utilisée comme élément de vin à évaluer.
 
 Nous utilisons un modèle pré-entraîné (apprentissage par transfert : Google Universal Sentence Encoder version 4 (USE)), pour convertir les notes de dégustation et d'association (description) en vecteurs de 512 dimensions pour capturer le sens sémantique. USE utilise une architecture de réseau neuronal profond entraînée sur de grands corpus de texte.
 
 Enfin, nous utilisons des similarités cosinus entre deux vecteurs représentant des vins pour calculer les valeurs de similarité entre eux. C'est ce que nous utilisons pour la recommandation, en obtenant ceux avec des valeurs les plus proches de 1 et en déterminant ainsi les vins les plus similaires en fonction de la dégustation et de l'association.
-🍷Modèle TOPSIS🍷
+
+# 🍷Modèle TOPSIS🍷
 
 Une fois que le modèle de recommandation est terminé, nous utilisons le modèle TOPSIS, une méthode de prise de décision utilisée pour évaluer la meilleure option parmi un ensemble d'alternatives en fonction de plusieurs critères, qui comporte les étapes suivantes :
 
