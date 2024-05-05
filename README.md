@@ -8,7 +8,7 @@ WineMeApp es un proyecto de final de bootcamp que funciona como un recomendador 
  
 
 
-## Do you wanna know about WineMeApp? 
+## Do you want to know about WineMeApp? 
 
 [English Version of the proyect](https://winemeapp-eng.streamlit.app/).
 
