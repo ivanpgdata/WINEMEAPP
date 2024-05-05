@@ -1,4 +1,3 @@
-# WineMeApp
 ![This is an alt text.](https://github.com/ivanpgdata/WineMeApp/blob/main/WineMeApp/images/banner_img.jpg?raw=true "This is a sample image.")
 
 # Winemeapp! Wine Recommender
