@@ -56,7 +56,7 @@ if selected =="Inicio":
         st.markdown("* **Di adiós a las experiencias de vino promedio.** Deja que nuestro motor te guíe hacia nuevos descubrimientos y momentos inolvidables.")
         st.markdown("#####  ¿Quieres saber más?")
     with col2:
-        # st.write("")
+        st.write("")
         # Importar imagen desde GDrive
         # file_id = "1-6tj0SQ2-X36EiDDN3yTUMsKkXHEunJH"
         # url = f"https://drive.google.com/uc?export=view&id={file_id}"
