@@ -58,7 +58,7 @@ if selected =="Inicio":
     with col2:
         st.write("")
         # Importar imagen desde GDrive
-        file_id = "1ncIfBeSzk-BaKjU2gaM037-L_kCF8_cf"
+        file_id = "1-6tj0SQ2-X36EiDDN3yTUMsKkXHEunJH"
         url = f"https://drive.google.com/uc?export=view&id={file_id}"
         response = requests.get(url)
         st.image(response.content)
