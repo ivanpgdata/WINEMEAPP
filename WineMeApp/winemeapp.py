@@ -173,7 +173,7 @@ if selected == "Quiénes somos":
     with col1:  # To display the header text using css style
         with st.container():
             # Importar imagen desde GDrive
-            file_maria_id = "1sCRq07Z-kYc8bGhZOAtBj_UyqSe7ZogQ"
+            file_maria_id = "1Laowp1RwnEVZ9iqUkJhs7oBlNQ7gmPN0"
             url_pic_maria = f"https://drive.google.com/uc?export=view&id={file_maria_id}"
             response_maria = requests.get(url_pic_maria)
             st.image(response_maria.content)
@@ -192,7 +192,7 @@ if selected == "Quiénes somos":
     with col2:
         # Importar imagen desde GDrive
 
-        file_ivan_id = "1s0koO8Ug2J-7nhTvdMQTIKCZZpfaMfq6"
+        file_ivan_id = "1Ti7uUVWqLwREAhcr_cUZ8zjxasXPhc3q"
         url_pic_ivan = f"https://drive.google.com/uc?export=view&id={file_ivan_id}"
         response_ivan = requests.get(url_pic_ivan)
         st.image(response_ivan.content)
@@ -209,7 +209,7 @@ if selected == "Quiénes somos":
             [LinkedIn](https://www.linkedin.com/in/ivanpgdata/) """)
     with col3:
         # Importar imagen desde GDrive
-        file_soraya_id = "1rzJvRfXgB61WgJloyBSYFRtUnirBW2j8"
+        file_soraya_id = "1Apq3V5kKbWVdoH-k1d3TV6I-rFggKUAb"
         url_pic_soraya = f"https://drive.google.com/uc?export=view&id={file_soraya_id}"
         response_soraya = requests.get(url_pic_soraya)
         st.image(response_soraya.content)
