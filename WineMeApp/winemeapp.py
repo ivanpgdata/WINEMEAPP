@@ -172,26 +172,26 @@ if selected == "Quiénes somos":
     col1, col2, col3 = st.columns([0.3, 0.3, 0.3])
     with col1:  # To display the header text using css style
         with st.container():
-		# Importar imagen desde GDrive
-		# file_maria_id = "1Laowp1RwnEVZ9iqUkJhs7oBlNQ7gmPN0"
-		# url_pic_maria = f"https://drive.google.com/file/d/{file_maria_id}"
-		file_maria_id = "AKGpihaIDs3qobDlR7Y8Oeva2nPwi2Ul1AM7nPT5jj9mRm16R2R-yNByT8-gLM-p3HddEPLic1h9WSeyWglDrfJiGliJU4F_xpoXhck=w1920-h919"
-		url_pic_maria = f"https://drive.google.com/drive-viewer/{file_maria_id}"
-		response_maria = requests.get(url_pic_maria)
-		st.image(response_maria.content)
-		# st.image(WineMeApp/images/maria_img.jpg)
-		st.markdown(
-		""" #### María Pérez Sebastián :computer:""")
-		st.write("""
-		Actualmente estoy dando un giro a mi carrera profesional formándome como Data Scientist. 
-		""")
-		st.write("""
-		Anteriormente, me he dedicado casi 10 años al desarrollo integral de proyectos arquitectónicos. Me considero una persona 
-		responsable, comprometida y con una alta capacidad de trabajo. Me gusta trabajar en equipo, aportar ideas personales y aprender de la 
-		forma de trabajar de los otros miembros positivamente.
-		""")
-		st.write("""[Github](https://github.com/marpezseb),
-		 [LinkedIn](https://www.linkedin.com/in/-mps2024/) """)
+	# Importar imagen desde GDrive
+	# file_maria_id = "1Laowp1RwnEVZ9iqUkJhs7oBlNQ7gmPN0"
+	# url_pic_maria = f"https://drive.google.com/file/d/{file_maria_id}"
+	file_maria_id = "AKGpihaIDs3qobDlR7Y8Oeva2nPwi2Ul1AM7nPT5jj9mRm16R2R-yNByT8-gLM-p3HddEPLic1h9WSeyWglDrfJiGliJU4F_xpoXhck=w1920-h919"
+	url_pic_maria = f"https://drive.google.com/drive-viewer/{file_maria_id}"
+	response_maria = requests.get(url_pic_maria)
+	st.image(response_maria.content)
+	# st.image(WineMeApp/images/maria_img.jpg)
+	st.markdown(
+	""" #### María Pérez Sebastián :computer:""")
+	st.write("""
+	Actualmente estoy dando un giro a mi carrera profesional formándome como Data Scientist. 
+	""")
+	st.write("""
+	Anteriormente, me he dedicado casi 10 años al desarrollo integral de proyectos arquitectónicos. Me considero una persona 
+	responsable, comprometida y con una alta capacidad de trabajo. Me gusta trabajar en equipo, aportar ideas personales y aprender de la 
+	forma de trabajar de los otros miembros positivamente.
+	""")
+	st.write("""[Github](https://github.com/marpezseb),
+	 [LinkedIn](https://www.linkedin.com/in/-mps2024/) """)
     with col2:
         # Importar imagen desde GDrive
 
